@@ -6,7 +6,7 @@ use sui::url;
 use sui::url::Url;
 
 //一次性见证对象 XSCOIN必须是大写的,强制要求，和模块名一样
-public struct XSCOIN_FAUCET has drop {}
+public struct XSCOIN_FAUCET has drop,store {}
 
 fun init(xscoin: XSCOIN_FAUCET, ctx: &mut TxContext) {
     /*

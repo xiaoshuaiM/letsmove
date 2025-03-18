@@ -1,6 +1,7 @@
 module mygame::game {
+
     use sui::coin::{Self, Coin};
-    use coin_faucet::xscoin_faucet::XSCOIN_FAUCET;
+    use coin_faucet::xscoin_faucet::{XSCOIN_FAUCET};
     use sui::balance::{Self, Balance};
     use sui::random::{Self, Random};
 
